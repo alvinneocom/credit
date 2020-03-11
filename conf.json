@@ -1,0 +1,24 @@
+{
+	"stds":[
+		{
+			"name":"VISA",
+			"starting":[4],
+			"length":[13, 16]
+		},
+		{
+			"name":"AMEX",
+			"starting":[34, 37],
+			"length":[15]
+		},
+		{
+			"name":"MASTERCARD",
+			"starting":[51, 52, 53, 54, 55],
+			"length":[16]
+		},
+		{
+			"name":"DISCOVER",
+			"starting":[6011],
+			"length":[16]
+		}
+	]
+}
