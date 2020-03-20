@@ -45,12 +45,7 @@ def luhn(n):
 
 # makes sure n matches spec in m
 def match(n, m):
-    # acceptable length
-    acclen = m["length"]
-    # acceptable starting digits
-    accstt = m["starting"]
-    # spaghet
-    return length(n) in acclen and int(str(n)[0:length(accstt[0])]) in accstt
+    return length(n) in m["length"] and int(str(n)[0:length(accstt[0])]) in m["starting"]
 
 def main():
     # get cc number
